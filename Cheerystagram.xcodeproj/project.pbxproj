@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D15A6DB1225ABE6700DA2793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A6DB0225ABE6700DA2793 /* AppDelegate.swift */; };
+		D15A6DB3225ABE6700DA2793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A6DB2225ABE6700DA2793 /* ViewController.swift */; };
+		D15A6DB6225ABE6700DA2793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15A6DB4225ABE6700DA2793 /* Main.storyboard */; };
+		D15A6DB8225ABE6900DA2793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15A6DB7225ABE6900DA2793 /* Assets.xcassets */; };
+		D15A6DBB225ABE6900DA2793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15A6DB9225ABE6900DA2793 /* LaunchScreen.storyboard */; };
+		D15A6DC6225ABE6900DA2793 /* CheerystagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A6DC5225ABE6900DA2793 /* CheerystagramTests.swift */; };
+		D15A6DD1225ABE6900DA2793 /* CheerystagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A6DD0225ABE6900DA2793 /* CheerystagramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D15A6DC2225ABE6900DA2793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D15A6DA5225ABE6700DA2793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15A6DAC225ABE6700DA2793;
+			remoteInfo = Cheerystagram;
+		};
+		D15A6DCD225ABE6900DA2793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D15A6DA5225ABE6700DA2793 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15A6DAC225ABE6700DA2793;
+			remoteInfo = Cheerystagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D15A6DAD225ABE6700DA2793 /* Cheerystagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cheerystagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15A6DB0225ABE6700DA2793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D15A6DB2225ABE6700DA2793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D15A6DB5225ABE6700DA2793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D15A6DB7225ABE6900DA2793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D15A6DBA225ABE6900DA2793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D15A6DBC225ABE6900DA2793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15A6DC1225ABE6900DA2793 /* CheerystagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheerystagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15A6DC5225ABE6900DA2793 /* CheerystagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerystagramTests.swift; sourceTree = "<group>"; };
+		D15A6DC7225ABE6900DA2793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15A6DCC225ABE6900DA2793 /* CheerystagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheerystagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15A6DD0225ABE6900DA2793 /* CheerystagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerystagramUITests.swift; sourceTree = "<group>"; };
+		D15A6DD2225ABE6900DA2793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D15A6DAA225ABE6700DA2793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A6DBE225ABE6900DA2793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A6DC9225ABE6900DA2793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D15A6DA4225ABE6700DA2793 = {
+			isa = PBXGroup;
+			children = (
+				D15A6DAF225ABE6700DA2793 /* Cheerystagram */,
+				D15A6DC4225ABE6900DA2793 /* CheerystagramTests */,
+				D15A6DCF225ABE6900DA2793 /* CheerystagramUITests */,
+				D15A6DAE225ABE6700DA2793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D15A6DAE225ABE6700DA2793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D15A6DAD225ABE6700DA2793 /* Cheerystagram.app */,
+				D15A6DC1225ABE6900DA2793 /* CheerystagramTests.xctest */,
+				D15A6DCC225ABE6900DA2793 /* CheerystagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D15A6DAF225ABE6700DA2793 /* Cheerystagram */ = {
+			isa = PBXGroup;
+			children = (
+				D15A6DB0225ABE6700DA2793 /* AppDelegate.swift */,
+				D15A6DB2225ABE6700DA2793 /* ViewController.swift */,
+				D15A6DB4225ABE6700DA2793 /* Main.storyboard */,
+				D15A6DB7225ABE6900DA2793 /* Assets.xcassets */,
+				D15A6DB9225ABE6900DA2793 /* LaunchScreen.storyboard */,
+				D15A6DBC225ABE6900DA2793 /* Info.plist */,
+			);
+			path = Cheerystagram;
+			sourceTree = "<group>";
+		};
+		D15A6DC4225ABE6900DA2793 /* CheerystagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				D15A6DC5225ABE6900DA2793 /* CheerystagramTests.swift */,
+				D15A6DC7225ABE6900DA2793 /* Info.plist */,
+			);
+			path = CheerystagramTests;
+			sourceTree = "<group>";
+		};
+		D15A6DCF225ABE6900DA2793 /* CheerystagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D15A6DD0225ABE6900DA2793 /* CheerystagramUITests.swift */,
+				D15A6DD2225ABE6900DA2793 /* Info.plist */,
+			);
+			path = CheerystagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D15A6DAC225ABE6700DA2793 /* Cheerystagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15A6DD5225ABE6900DA2793 /* Build configuration list for PBXNativeTarget "Cheerystagram" */;
+			buildPhases = (
+				D15A6DA9225ABE6700DA2793 /* Sources */,
+				D15A6DAA225ABE6700DA2793 /* Frameworks */,
+				D15A6DAB225ABE6700DA2793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cheerystagram;
+			productName = Cheerystagram;
+			productReference = D15A6DAD225ABE6700DA2793 /* Cheerystagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D15A6DC0225ABE6900DA2793 /* CheerystagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15A6DD8225ABE6900DA2793 /* Build configuration list for PBXNativeTarget "CheerystagramTests" */;
+			buildPhases = (
+				D15A6DBD225ABE6900DA2793 /* Sources */,
+				D15A6DBE225ABE6900DA2793 /* Frameworks */,
+				D15A6DBF225ABE6900DA2793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D15A6DC3225ABE6900DA2793 /* PBXTargetDependency */,
+			);
+			name = CheerystagramTests;
+			productName = CheerystagramTests;
+			productReference = D15A6DC1225ABE6900DA2793 /* CheerystagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D15A6DCB225ABE6900DA2793 /* CheerystagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15A6DDB225ABE6900DA2793 /* Build configuration list for PBXNativeTarget "CheerystagramUITests" */;
+			buildPhases = (
+				D15A6DC8225ABE6900DA2793 /* Sources */,
+				D15A6DC9225ABE6900DA2793 /* Frameworks */,
+				D15A6DCA225ABE6900DA2793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D15A6DCE225ABE6900DA2793 /* PBXTargetDependency */,
+			);
+			name = CheerystagramUITests;
+			productName = CheerystagramUITests;
+			productReference = D15A6DCC225ABE6900DA2793 /* CheerystagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D15A6DA5225ABE6700DA2793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Cheery Wang";
+				TargetAttributes = {
+					D15A6DAC225ABE6700DA2793 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D15A6DC0225ABE6900DA2793 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D15A6DAC225ABE6700DA2793;
+					};
+					D15A6DCB225ABE6900DA2793 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D15A6DAC225ABE6700DA2793;
+					};
+				};
+			};
+			buildConfigurationList = D15A6DA8225ABE6700DA2793 /* Build configuration list for PBXProject "Cheerystagram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D15A6DA4225ABE6700DA2793;
+			productRefGroup = D15A6DAE225ABE6700DA2793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D15A6DAC225ABE6700DA2793 /* Cheerystagram */,
+				D15A6DC0225ABE6900DA2793 /* CheerystagramTests */,
+				D15A6DCB225ABE6900DA2793 /* CheerystagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D15A6DAB225ABE6700DA2793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15A6DBB225ABE6900DA2793 /* LaunchScreen.storyboard in Resources */,
+				D15A6DB8225ABE6900DA2793 /* Assets.xcassets in Resources */,
+				D15A6DB6225ABE6700DA2793 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A6DBF225ABE6900DA2793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A6DCA225ABE6900DA2793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D15A6DA9225ABE6700DA2793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15A6DB3225ABE6700DA2793 /* ViewController.swift in Sources */,
+				D15A6DB1225ABE6700DA2793 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A6DBD225ABE6900DA2793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15A6DC6225ABE6900DA2793 /* CheerystagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15A6DC8225ABE6900DA2793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15A6DD1225ABE6900DA2793 /* CheerystagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D15A6DC3225ABE6900DA2793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15A6DAC225ABE6700DA2793 /* Cheerystagram */;
+			targetProxy = D15A6DC2225ABE6900DA2793 /* PBXContainerItemProxy */;
+		};
+		D15A6DCE225ABE6900DA2793 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15A6DAC225ABE6700DA2793 /* Cheerystagram */;
+			targetProxy = D15A6DCD225ABE6900DA2793 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D15A6DB4225ABE6700DA2793 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D15A6DB5225ABE6700DA2793 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D15A6DB9225ABE6900DA2793 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D15A6DBA225ABE6900DA2793 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D15A6DD3225ABE6900DA2793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D15A6DD4225ABE6900DA2793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D15A6DD6225ABE6900DA2793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cheerystagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cheery.Cheerystagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D15A6DD7225ABE6900DA2793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Cheerystagram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cheery.Cheerystagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D15A6DD9225ABE6900DA2793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheerystagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cheery.CheerystagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheerystagram.app/Cheerystagram";
+			};
+			name = Debug;
+		};
+		D15A6DDA225ABE6900DA2793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheerystagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cheery.CheerystagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheerystagram.app/Cheerystagram";
+			};
+			name = Release;
+		};
+		D15A6DDC225ABE6900DA2793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheerystagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cheery.CheerystagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cheerystagram;
+			};
+			name = Debug;
+		};
+		D15A6DDD225ABE6900DA2793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheerystagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Cheery.CheerystagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cheerystagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D15A6DA8225ABE6700DA2793 /* Build configuration list for PBXProject "Cheerystagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15A6DD3225ABE6900DA2793 /* Debug */,
+				D15A6DD4225ABE6900DA2793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15A6DD5225ABE6900DA2793 /* Build configuration list for PBXNativeTarget "Cheerystagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15A6DD6225ABE6900DA2793 /* Debug */,
+				D15A6DD7225ABE6900DA2793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15A6DD8225ABE6900DA2793 /* Build configuration list for PBXNativeTarget "CheerystagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15A6DD9225ABE6900DA2793 /* Debug */,
+				D15A6DDA225ABE6900DA2793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D15A6DDB225ABE6900DA2793 /* Build configuration list for PBXNativeTarget "CheerystagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15A6DDC225ABE6900DA2793 /* Debug */,
+				D15A6DDD225ABE6900DA2793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D15A6DA5225ABE6700DA2793 /* Project object */;
+}
