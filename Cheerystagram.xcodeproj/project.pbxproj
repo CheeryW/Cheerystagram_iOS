@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B5BC4FF2D990B6BEB1473A0 /* Pods_CheerystagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E32E2A6C4DF73E0DC29DB93 /* Pods_CheerystagramUITests.framework */; };
+		BB18784951F448C77D750722 /* Pods_CheerystagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789C3F4880B244F13D1C7775 /* Pods_CheerystagramTests.framework */; };
+		BE9F50443DFFA7D695C7B0CF /* Pods_Cheerystagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0D2373DC5999CE7BA7C732 /* Pods_Cheerystagram.framework */; };
+		D1284B6A225B14600071CE8C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1284B69225B14600071CE8C /* LoginViewController.swift */; };
+		D1284B6C225B14770071CE8C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1284B6B225B14770071CE8C /* FeedViewController.swift */; };
+		D1284B6E225B22510071CE8C /* CaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1284B6D225B22510071CE8C /* CaptureViewController.swift */; };
 		D15A6DB1225ABE6700DA2793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A6DB0225ABE6700DA2793 /* AppDelegate.swift */; };
-		D15A6DB3225ABE6700DA2793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A6DB2225ABE6700DA2793 /* ViewController.swift */; };
 		D15A6DB6225ABE6700DA2793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15A6DB4225ABE6700DA2793 /* Main.storyboard */; };
 		D15A6DB8225ABE6900DA2793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15A6DB7225ABE6900DA2793 /* Assets.xcassets */; };
 		D15A6DBB225ABE6900DA2793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15A6DB9225ABE6900DA2793 /* LaunchScreen.storyboard */; };
@@ -34,9 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EF5D10BD503D19B5581CB3D /* Pods-CheerystagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheerystagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-CheerystagramUITests/Pods-CheerystagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C0D2373DC5999CE7BA7C732 /* Pods_Cheerystagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheerystagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E32E2A6C4DF73E0DC29DB93 /* Pods_CheerystagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheerystagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D7C8D76C8C09453D3EFB49 /* Pods-CheerystagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheerystagramTests.debug.xcconfig"; path = "Target Support Files/Pods-CheerystagramTests/Pods-CheerystagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		789C3F4880B244F13D1C7775 /* Pods_CheerystagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheerystagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		835A82F24FBDFA42A83E7F14 /* Pods-Cheerystagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheerystagram.release.xcconfig"; path = "Target Support Files/Pods-Cheerystagram/Pods-Cheerystagram.release.xcconfig"; sourceTree = "<group>"; };
+		D1284B69225B14600071CE8C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D1284B6B225B14770071CE8C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D1284B6D225B22510071CE8C /* CaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureViewController.swift; sourceTree = "<group>"; };
 		D15A6DAD225ABE6700DA2793 /* Cheerystagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cheerystagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15A6DB0225ABE6700DA2793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D15A6DB2225ABE6700DA2793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D15A6DB5225ABE6700DA2793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D15A6DB7225ABE6900DA2793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D15A6DBA225ABE6900DA2793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		D15A6DCC225ABE6900DA2793 /* CheerystagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheerystagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15A6DD0225ABE6900DA2793 /* CheerystagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerystagramUITests.swift; sourceTree = "<group>"; };
 		D15A6DD2225ABE6900DA2793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C8E5F76C7C71B3173613D9 /* Pods-CheerystagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheerystagramUITests.release.xcconfig"; path = "Target Support Files/Pods-CheerystagramUITests/Pods-CheerystagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9A8FA96E3329E8887C4B956 /* Pods-Cheerystagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheerystagram.debug.xcconfig"; path = "Target Support Files/Pods-Cheerystagram/Pods-Cheerystagram.debug.xcconfig"; sourceTree = "<group>"; };
+		EEBB98460585BC07D345856C /* Pods-CheerystagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheerystagramTests.release.xcconfig"; path = "Target Support Files/Pods-CheerystagramTests/Pods-CheerystagramTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9F50443DFFA7D695C7B0CF /* Pods_Cheerystagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB18784951F448C77D750722 /* Pods_CheerystagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5BC4FF2D990B6BEB1473A0 /* Pods_CheerystagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88142CBD13132BEF4F7263E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C0D2373DC5999CE7BA7C732 /* Pods_Cheerystagram.framework */,
+				789C3F4880B244F13D1C7775 /* Pods_CheerystagramTests.framework */,
+				3E32E2A6C4DF73E0DC29DB93 /* Pods_CheerystagramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98C085E1D097D7F32CDB620E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9A8FA96E3329E8887C4B956 /* Pods-Cheerystagram.debug.xcconfig */,
+				835A82F24FBDFA42A83E7F14 /* Pods-Cheerystagram.release.xcconfig */,
+				64D7C8D76C8C09453D3EFB49 /* Pods-CheerystagramTests.debug.xcconfig */,
+				EEBB98460585BC07D345856C /* Pods-CheerystagramTests.release.xcconfig */,
+				1EF5D10BD503D19B5581CB3D /* Pods-CheerystagramUITests.debug.xcconfig */,
+				D8C8E5F76C7C71B3173613D9 /* Pods-CheerystagramUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D15A6DA4225ABE6700DA2793 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				D15A6DC4225ABE6900DA2793 /* CheerystagramTests */,
 				D15A6DCF225ABE6900DA2793 /* CheerystagramUITests */,
 				D15A6DAE225ABE6700DA2793 /* Products */,
+				98C085E1D097D7F32CDB620E /* Pods */,
+				88142CBD13132BEF4F7263E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +142,13 @@
 			isa = PBXGroup;
 			children = (
 				D15A6DB0225ABE6700DA2793 /* AppDelegate.swift */,
-				D15A6DB2225ABE6700DA2793 /* ViewController.swift */,
 				D15A6DB4225ABE6700DA2793 /* Main.storyboard */,
 				D15A6DB7225ABE6900DA2793 /* Assets.xcassets */,
 				D15A6DB9225ABE6900DA2793 /* LaunchScreen.storyboard */,
 				D15A6DBC225ABE6900DA2793 /* Info.plist */,
+				D1284B69225B14600071CE8C /* LoginViewController.swift */,
+				D1284B6B225B14770071CE8C /* FeedViewController.swift */,
+				D1284B6D225B22510071CE8C /* CaptureViewController.swift */,
 			);
 			path = Cheerystagram;
 			sourceTree = "<group>";
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D15A6DD5225ABE6900DA2793 /* Build configuration list for PBXNativeTarget "Cheerystagram" */;
 			buildPhases = (
+				CB26A987067456B6FD2BE470 /* [CP] Check Pods Manifest.lock */,
 				D15A6DA9225ABE6700DA2793 /* Sources */,
 				D15A6DAA225ABE6700DA2793 /* Frameworks */,
 				D15A6DAB225ABE6700DA2793 /* Resources */,
+				9228A83CEFA20EA7DDC1A8FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D15A6DD8225ABE6900DA2793 /* Build configuration list for PBXNativeTarget "CheerystagramTests" */;
 			buildPhases = (
+				425A0470323039F99716E2EB /* [CP] Check Pods Manifest.lock */,
 				D15A6DBD225ABE6900DA2793 /* Sources */,
 				D15A6DBE225ABE6900DA2793 /* Frameworks */,
 				D15A6DBF225ABE6900DA2793 /* Resources */,
@@ -167,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D15A6DDB225ABE6900DA2793 /* Build configuration list for PBXNativeTarget "CheerystagramUITests" */;
 			buildPhases = (
+				344276F0493FCE2F5E31B309 /* [CP] Check Pods Manifest.lock */,
 				D15A6DC8225ABE6900DA2793 /* Sources */,
 				D15A6DC9225ABE6900DA2793 /* Frameworks */,
 				D15A6DCA225ABE6900DA2793 /* Resources */,
@@ -251,12 +301,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		344276F0493FCE2F5E31B309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheerystagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		425A0470323039F99716E2EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheerystagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9228A83CEFA20EA7DDC1A8FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cheerystagram/Pods-Cheerystagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cheerystagram/Pods-Cheerystagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB26A987067456B6FD2BE470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cheerystagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D15A6DA9225ABE6700DA2793 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D15A6DB3225ABE6700DA2793 /* ViewController.swift in Sources */,
+				D1284B6A225B14600071CE8C /* LoginViewController.swift in Sources */,
+				D1284B6E225B22510071CE8C /* CaptureViewController.swift in Sources */,
+				D1284B6C225B14770071CE8C /* FeedViewController.swift in Sources */,
 				D15A6DB1225ABE6700DA2793 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +579,7 @@
 		};
 		D15A6DD6225ABE6900DA2793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A8FA96E3329E8887C4B956 /* Pods-Cheerystagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +597,7 @@
 		};
 		D15A6DD7225ABE6900DA2793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835A82F24FBDFA42A83E7F14 /* Pods-Cheerystagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +615,7 @@
 		};
 		D15A6DD9225ABE6900DA2793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D7C8D76C8C09453D3EFB49 /* Pods-CheerystagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +636,7 @@
 		};
 		D15A6DDA225ABE6900DA2793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBB98460585BC07D345856C /* Pods-CheerystagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +657,7 @@
 		};
 		D15A6DDC225ABE6900DA2793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF5D10BD503D19B5581CB3D /* Pods-CheerystagramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +677,7 @@
 		};
 		D15A6DDD225ABE6900DA2793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8C8E5F76C7C71B3173613D9 /* Pods-CheerystagramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
