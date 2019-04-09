@@ -19,6 +19,7 @@
 		D15A6DBB225ABE6900DA2793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D15A6DB9225ABE6900DA2793 /* LaunchScreen.storyboard */; };
 		D15A6DC6225ABE6900DA2793 /* CheerystagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A6DC5225ABE6900DA2793 /* CheerystagramTests.swift */; };
 		D15A6DD1225ABE6900DA2793 /* CheerystagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15A6DD0225ABE6900DA2793 /* CheerystagramUITests.swift */; };
+		D1CC4236225C6A1E00B5A862 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CC4235225C6A1E00B5A862 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D15A6DCC225ABE6900DA2793 /* CheerystagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheerystagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D15A6DD0225ABE6900DA2793 /* CheerystagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheerystagramUITests.swift; sourceTree = "<group>"; };
 		D15A6DD2225ABE6900DA2793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CC4235225C6A1E00B5A862 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		D8C8E5F76C7C71B3173613D9 /* Pods-CheerystagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheerystagramUITests.release.xcconfig"; path = "Target Support Files/Pods-CheerystagramUITests/Pods-CheerystagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D9A8FA96E3329E8887C4B956 /* Pods-Cheerystagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheerystagram.debug.xcconfig"; path = "Target Support Files/Pods-Cheerystagram/Pods-Cheerystagram.debug.xcconfig"; sourceTree = "<group>"; };
 		EEBB98460585BC07D345856C /* Pods-CheerystagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheerystagramTests.release.xcconfig"; path = "Target Support Files/Pods-CheerystagramTests/Pods-CheerystagramTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				D1284B69225B14600071CE8C /* LoginViewController.swift */,
 				D1284B6B225B14770071CE8C /* FeedViewController.swift */,
 				D1284B6D225B22510071CE8C /* CaptureViewController.swift */,
+				D1CC4235225C6A1E00B5A862 /* PostCell.swift */,
 			);
 			path = Cheerystagram;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				D1284B6E225B22510071CE8C /* CaptureViewController.swift in Sources */,
 				D1284B6C225B14770071CE8C /* FeedViewController.swift in Sources */,
 				D15A6DB1225ABE6700DA2793 /* AppDelegate.swift in Sources */,
+				D1CC4236225C6A1E00B5A862 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
